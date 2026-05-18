@@ -6,7 +6,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 
-const supabase = createClient("https://YOUR_URL.supabase.co", "YOUR_ANON_KEY");
+const supabase = createClient("https://xupbuugoagosefixqusk.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh1cGJ1dWdvYWdvc2VmaXhxdXNrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkwOTMxNTMsImV4cCI6MjA5NDY2OTE1M30.rvF8iGbIX87OAzC9tN7Jvif99iutJU_5KUbMC_rG63c");
 
 export default function App() {
   const [formaciones, setFormaciones] = useState([]);
